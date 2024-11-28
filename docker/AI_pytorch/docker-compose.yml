@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  dev-environment:
+    build: .
+    runtime: nvidia
+    network_mode: host
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      # Mount Neovim configuration
+      - ./nvim-config:/root/.config/nvim
+      # Mount workspace for persistence
+      - ./workspace:/workspace
+      # Mount X11 socket for GUI access
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # Mount USB devices
+      - /dev:/dev
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "8888:8888"
+    deploy:
+      resources:
+        limits:
+          memory: 15g
+
