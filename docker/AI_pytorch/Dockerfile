@@ -3,15 +3,20 @@ FROM pytorch/pytorch:latest
 
 # Update and install core dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3.9 python3.9-dev python3-pip \
-    vim neovim vi \
     git wget curl \
     build-essential cmake \
+    zsh \
+    vim \
     libgl1-mesa-glx libegl1-mesa \
     libxrandr2 libxinerama1 libxcursor1 \
     libusb-1.0-0 \
+    fuse \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+# Download and install Neovim AppImage
+RUN wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage -O /usr/local/bin/nvim && \
+    chmod +x /usr/local/bin/nvim
 
 # Install Python libraries
 RUN pip install --no-cache-dir \
@@ -28,6 +33,13 @@ RUN mkdir -p /workspace && \
     echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py && \
     echo "c.NotebookApp.port = 8888" >> ~/.jupyter/jupyter_notebook_config.py
 
+# Install Oh-My-Zsh and Zsh plugins
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended && \
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k && \
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && \
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && \
+    git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+
 # Set working directory
 WORKDIR /workspace
 
@@ -35,5 +47,5 @@ WORKDIR /workspace
 EXPOSE 8888
 
 # Default command
-CMD ["/bin/bash"]
+CMD ["/bin/zsh"]
 

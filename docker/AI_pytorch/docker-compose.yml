@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   dev-environment:
     build: .
@@ -12,21 +10,32 @@ services:
       - QT_X11_NO_MITSHM=1
     volumes:
       # Mount Neovim configuration
-      - ./nvim-config:/root/.config/nvim
+      - ./config/nvim:/root/.config/nvim
       # Mount workspace for persistence
       - ./workspace:/workspace
+      # Mount Zsh configuration
+      - ./config/zshrc:/root/.zshrc
+      # Mount Zsh configuration
+      - ./config/p10k.zsh:/root/.p10k.zsh
       # Mount X11 socket for GUI access
       - /tmp/.X11-unix:/tmp/.X11-unix
       # Mount USB devices
       - /dev:/dev
+    devices:
+      - "/dev/fuse"
+    cap_add:
+      - SYS_ADMIN
     ulimits:
       nofile:
         soft: 65536
         hard: 65536
     ports:
       - "8888:8888"
+    stdin_open: true
+    tty: true
     deploy:
       resources:
         limits:
           memory: 15g
+    command: zsh 
 
