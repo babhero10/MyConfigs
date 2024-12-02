@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxrandr2 libxinerama1 libxcursor1 \
     libusb-1.0-0 \
     fuse \
+    unzip zip \  # Added unzip and zip programs
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -24,7 +25,8 @@ RUN pip install --no-cache-dir \
     jupyter notebook \
     open3d vtk pyvista \
     torch torchvision torchaudio \
-    pygeometry
+    pygeometry \
+    scipy librosa  # Added libraries for signal processing
 
 # Set up Jupyter Notebook
 RUN mkdir -p /workspace && \

@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  ros1:
+    build:
+      context: ./
+      dockerfile: ros1.Dockerfile
+    environment:
+      - ROS_HOSTNAME=ros1
+      - ROS_MASTER_URI=http://172.17.0.1:11311  # REPLACE WITH ACTUAL IP FROM docker inspect
+    networks:
+      - ros_network
+    ports:
+      - "11311:11311"
+
+  ros2:
+    build:
+      context: ./
+      dockerfile: ros2.Dockerfile
+    environment:
+      - ROS_DOMAIN_ID=1
+    networks:
+      - ros_network
+    ports:
+      - "9090:9090"
+
+  bridge:
+    image: ros:foxy-ros1-bridge
+    environment:
+      - ROS_HOSTNAME=bridge
+      - ROS_MASTER_URI=http://172.17.0.1:11311  # REPLACE WITH ACTUAL IP FROM docker inspect
+    command: ros2 run ros1_bridge dynamic_bridge
+    networks:
+      - ros_network
+    depends_on:
+      - ros1
+      - ros2
+
+networks:
+  ros_network:
+    driver: bridge

@@ -12,7 +12,7 @@ services:
       # Mount Neovim configuration
       - ./config/nvim:/root/.config/nvim
       # Mount workspace for persistence
-      - ./workspace:/workspace
+      - ~/Main:/workspace
       # Mount Zsh configuration
       - ./config/zshrc:/root/.zshrc
       # Mount Zsh configuration

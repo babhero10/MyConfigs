@@ -12,7 +12,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "pylsp", "lemminx" }, -- Ensure these LSPs are installed
+				ensure_installed = {"pylsp"}, -- Ensure these LSPs are installed
 			})
 		end,
 	},
@@ -24,34 +24,8 @@ return {
 			local capabilities = require("cmp_nvim_lsp").default_capabilities() -- Autocomplete support
 			local lspconfig = require("lspconfig")
 
-			-- Setup lua_ls (Lua Language Server)
-			lspconfig.lua_ls.setup({
-				capabilities = capabilities,
-				settings = {
-					Lua = {
-						runtime = {
-							version = "LuaJIT", -- Neovim runtime Lua version
-						},
-						diagnostics = {
-							globals = { "vim" }, -- Recognize `vim` as a global
-						},
-						workspace = {
-							library = vim.api.nvim_get_runtime_file("", true), -- Include Neovim runtime files
-						},
-						telemetry = {
-							enable = false, -- Disable telemetry for privacy
-						},
-					},
-				},
-			})
-
 			-- Setup pylsp (Python Language Server)
 			lspconfig.pylsp.setup({
-				capabilities = capabilities,
-			})
-
-			-- Setup lemmix (xml Language Server)
-			lspconfig.lemminx.setup({
 				capabilities = capabilities,
 			})
 
