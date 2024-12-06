@@ -11,7 +11,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libxrandr2 libxinerama1 libxcursor1 \
     libusb-1.0-0 \
     fuse \
-    unzip zip \  # Added unzip and zip programs
+    xclip \
+    unzip \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

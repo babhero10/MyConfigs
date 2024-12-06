@@ -4,15 +4,6 @@ return {
 		"hrsh7th/cmp-nvim-lsp",
 	},
 
-	-- Snippet Engine and Related Plugins
-	{
-		"L3MON4D3/LuaSnip",
-		dependencies = {
-			"saadparwaiz1/cmp_luasnip", -- Bridge for LuaSnip
-			"rafamadriz/friendly-snippets", -- Predefined snippets
-		},
-	},
-
 	-- Main Completion Plugin
 	{
 		"hrsh7th/nvim-cmp",
@@ -21,12 +12,10 @@ return {
 		},
 		config = function()
 			local cmp = require("cmp")
-			require("luasnip.loaders.from_vscode").lazy_load()
 
 			cmp.setup({
 				snippet = {
-					expand = function(args)
-						require("luasnip").lsp_expand(args.body)
+					expand = function()
 					end,
 				},
 				window = {
@@ -44,7 +33,6 @@ return {
 				}),
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
-					{ name = "luasnip" }, -- LuaSnip snippets
 					{ name = "path" }, -- File path completion
 				}, {
 					{ name = "buffer" }, -- Buffer source

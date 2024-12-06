@@ -19,6 +19,8 @@ services:
       - ./config/p10k.zsh:/root/.p10k.zsh
       # Mount X11 socket for GUI access
       - /tmp/.X11-unix:/tmp/.X11-unix
+      # Mount .Xauthority for clipboard access
+      - $HOME/.Xauthority:/root/.Xauthority:ro
       # Mount USB devices
       - /dev:/dev
     devices:
