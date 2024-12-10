@@ -1,0 +1,21 @@
+[0.689s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclpy/topics/minimal_publisher': AMENT_PREFIX_PATH=/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.947s] [1m============================= test session starts ==============================[0m
+[0.948s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[0.948s] cachedir: /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache
+[0.948s] rootdir: /ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclpy, inifile: pytest.ini
+[0.948s] plugins: ament-lint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, ament-pep257-0.9.8, ament-xmllint-0.9.8, launch-testing-0.10.10, launch-testing-ros-0.11.7, colcon-core-0.18.4, cov-2.8.1
+[0.985s] [1mcollecting ... [0m[1m
+[0.985s] collected 3 items                                                              [0m
+[0.986s] 
+[0.996s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[1.058s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[1.072s] 
+[1.072s] [33m=============================== warnings summary ===============================[0m
+[1.072s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[1.072s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[1.074s] 
+[1.074s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[1.074s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[1.074s] - generated xml file: /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml -
+[1.074s] [33m[1m===================== 3 passed, 1 warnings in 0.13 seconds =====================[0m
+[1.160s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclpy/topics/minimal_publisher' returned '0': AMENT_PREFIX_PATH=/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

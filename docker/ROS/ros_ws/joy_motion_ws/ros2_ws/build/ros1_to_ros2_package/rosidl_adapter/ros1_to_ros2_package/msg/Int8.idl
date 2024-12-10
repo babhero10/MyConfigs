@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros1_to_ros2_package/msg/Int8.msg
+// generated code does not contain a copyright notice
+
+
+module ros1_to_ros2_package {
+  module msg {
+    struct Int8 {
+      int8 data;
+    };
+  };
+};

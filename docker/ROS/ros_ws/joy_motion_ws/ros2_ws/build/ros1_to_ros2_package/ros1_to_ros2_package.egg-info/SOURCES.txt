@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/ros1_to_ros2_package
+ros1_to_ros2_package/__init__.py
+ros1_to_ros2_package/ros1_ros2.py
+ros1_to_ros2_package.egg-info/PKG-INFO
+ros1_to_ros2_package.egg-info/SOURCES.txt
+ros1_to_ros2_package.egg-info/dependency_links.txt
+ros1_to_ros2_package.egg-info/entry_points.txt
+ros1_to_ros2_package.egg-info/requires.txt
+ros1_to_ros2_package.egg-info/top_level.txt
+ros1_to_ros2_package.egg-info/zip-safe

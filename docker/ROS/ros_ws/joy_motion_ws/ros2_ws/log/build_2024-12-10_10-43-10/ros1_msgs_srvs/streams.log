@@ -1,0 +1,36 @@
+[0.136s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs
+[0.175s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.216s] -- Check for working C compiler: /usr/bin/cc
+[0.269s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.270s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.398s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.495s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.495s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.617s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.713s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.732s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.799s]   rosidl_generate_interfaces() the passed file 'msg/Int8.msg' doesn't exist
+[0.799s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.799s]   '/ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs'
+[0.799s] Call Stack (most recent call first):
+[0.799s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.799s] 
+[0.799s] 
+[0.799s] -- Configuring incomplete, errors occurred!
+[0.799s] See also "/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs/CMakeFiles/CMakeOutput.log".
+[0.803s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs

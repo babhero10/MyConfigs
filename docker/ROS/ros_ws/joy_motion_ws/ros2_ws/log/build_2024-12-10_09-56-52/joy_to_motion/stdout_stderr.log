@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing joy_to_motion.egg-info/PKG-INFO
+writing dependency_links to joy_to_motion.egg-info/dependency_links.txt
+writing entry points to joy_to_motion.egg-info/entry_points.txt
+writing requirements to joy_to_motion.egg-info/requires.txt
+writing top-level names to joy_to_motion.egg-info/top_level.txt
+reading manifest file 'joy_to_motion.egg-info/SOURCES.txt'
+writing manifest file 'joy_to_motion.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/python3.8/site-packages/joy-to-motion.egg-link (link to .)
+Installing joy_to_motion script to /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/joy_to_motion
+
+Installed /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion
+running symlink_data

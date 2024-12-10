@@ -1,0 +1,194 @@
+[0.129s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs
+[0.140s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.267s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.476s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.568s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.569s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.594s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.594s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.594s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.594s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.616s] -- Found PythonExtra: .so  
+[0.649s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.666s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.667s] -- Added test 'lint_cmake' to check CMake code style
+[0.668s] -- Added test 'xmllint' to check XML markup files
+[0.671s] -- Configuring done
+[0.686s] -- Generating done
+[0.692s] -- Build files have been written to: /ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs
+[0.697s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs
+[0.698s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs -- -j20 -l20
+[0.730s] [35m[1mScanning dependencies of target ros1_msgs_srvs__cpp[0m
+[0.731s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.741s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.878s] [  5%] Built target ros1_msgs_srvs__cpp
+[0.880s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_generator_c[0m
+[0.885s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.887s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.887s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.887s] [ 15%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/ros1_msgs_srvs/msg/detail/int8__functions.c.o[0m
+[0.888s] [ 17%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/ros1_msgs_srvs/msg/detail/int16__functions.c.o[0m
+[0.920s] [ 20%] [32m[1mLinking C shared library libros1_msgs_srvs__rosidl_generator_c.so[0m
+[0.947s] [ 20%] Built target ros1_msgs_srvs__rosidl_generator_c
+[0.955s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.955s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.014s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_cpp[0m
+[1.022s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_introspection_cpp[0m
+[1.023s] [ 28%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros1_msgs_srvs/msg/int8__type_support.cpp.o[0m
+[1.025s] [ 30%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros1_msgs_srvs/msg/int16__type_support.cpp.o[0m
+[1.026s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[1.033s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros1_msgs_srvs/msg/detail/int8__type_support.cpp.o[0m
+[1.033s] [ 35%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros1_msgs_srvs/msg/detail/int16__type_support.cpp.o[0m
+[1.035s] [ 38%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros1_msgs_srvs/msg/detail/dds_fastrtps/int8__type_support.cpp.o[0m
+[1.035s] [ 41%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros1_msgs_srvs/msg/detail/dds_fastrtps/int16__type_support.cpp.o[0m
+[1.088s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_c[0m
+[1.099s] [ 43%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros1_msgs_srvs/msg/int8__type_support.cpp.o[0m
+[1.099s] [ 46%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros1_msgs_srvs/msg/int16__type_support.cpp.o[0m
+[1.104s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_introspection_c[0m
+[1.113s] [ 48%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros1_msgs_srvs/msg/detail/int16__type_support.c.o[0m
+[1.115s] [ 51%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros1_msgs_srvs/msg/detail/int8__type_support.c.o[0m
+[1.127s] [ 53%] [32m[1mLinking CXX shared library libros1_msgs_srvs__rosidl_typesupport_c.so[0m
+[1.138s] [ 56%] [32m[1mLinking C shared library libros1_msgs_srvs__rosidl_typesupport_introspection_c.so[0m
+[1.161s] [ 56%] Built target ros1_msgs_srvs__rosidl_typesupport_c
+[1.161s] [ 56%] Built target ros1_msgs_srvs__rosidl_typesupport_introspection_c
+[1.182s] [ 58%] [32m[1mLinking CXX shared library libros1_msgs_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[1.216s] [ 58%] Built target ros1_msgs_srvs__rosidl_typesupport_introspection_cpp
+[1.224s] [ 61%] [32m[1mLinking CXX shared library libros1_msgs_srvs__rosidl_typesupport_cpp.so[0m
+[1.252s] [ 61%] Built target ros1_msgs_srvs__rosidl_typesupport_cpp
+[1.286s] [ 64%] [32m[1mLinking CXX shared library libros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.344s] [ 64%] Built target ros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[1.351s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.488s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_fastrtps_c[0m
+[1.500s] [ 69%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros1_msgs_srvs/msg/detail/int16__type_support_c.cpp.o[0m
+[1.501s] [ 71%] [32mBuilding CXX object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros1_msgs_srvs/msg/detail/int8__type_support_c.cpp.o[0m
+[1.663s] [ 74%] [32m[1mLinking CXX shared library libros1_msgs_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[1.717s] [ 74%] Built target ros1_msgs_srvs__rosidl_typesupport_fastrtps_c
+[1.724s] [35m[1mScanning dependencies of target ros1_msgs_srvs[0m
+[1.731s] [ 74%] Built target ros1_msgs_srvs
+[1.740s] [35m[1mScanning dependencies of target ros1_msgs_srvs__py[0m
+[1.748s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.972s] [ 76%] Built target ros1_msgs_srvs__py
+[1.979s] [35m[1mScanning dependencies of target ros1_msgs_srvs__python[0m
+[1.991s] [ 79%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__python.dir/rosidl_generator_py/ros1_msgs_srvs/msg/_int8_s.c.o[0m
+[1.993s] [ 82%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__python.dir/rosidl_generator_py/ros1_msgs_srvs/msg/_int16_s.c.o[0m
+[2.045s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/ros1_msgs_srvs/libros1_msgs_srvs__python.so[0m
+[2.073s] [ 84%] Built target ros1_msgs_srvs__python
+[2.082s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[2.082s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_c__pyext[0m
+[2.082s] [35m[1mScanning dependencies of target ros1_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.096s] [ 89%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros1_msgs_srvs/_ros1_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.096s] [ 89%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros1_msgs_srvs/_ros1_msgs_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.097s] [ 92%] [32mBuilding C object CMakeFiles/ros1_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros1_msgs_srvs/_ros1_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.144s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.144s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.145s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.170s] [100%] Built target ros1_msgs_srvs__rosidl_typesupport_c__pyext
+[2.170s] [100%] Built target ros1_msgs_srvs__rosidl_typesupport_introspection_c__pyext
+[2.189s] [100%] Built target ros1_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext
+[2.197s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs -- -j20 -l20
+[2.209s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs
+[2.217s] -- Install configuration: ""
+[2.218s] -- Execute custom install script
+[2.218s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/ros1_msgs_srvs
+[2.224s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__functions.h
+[2.230s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__struct.h
+[2.239s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__type_support.h
+[2.245s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__functions.h
+[2.254s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__struct.h
+[2.264s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__type_support.h
+[2.274s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/int16.h
+[2.282s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/int8.h
+[2.292s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.301s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/library_path.sh
+[2.312s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/library_path.dsv
+[2.322s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__rosidl_typesupport_fastrtps_c.h
+[2.333s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__rosidl_typesupport_fastrtps_c.h
+[2.344s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.354s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[2.364s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__rosidl_typesupport_fastrtps_cpp.hpp
+[2.372s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__rosidl_typesupport_fastrtps_cpp.hpp
+[2.381s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.389s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[2.397s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__rosidl_typesupport_introspection_c.h
+[2.403s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__rosidl_typesupport_introspection_c.h
+[2.411s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.419s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__builder.hpp
+[2.426s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__struct.hpp
+[2.433s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__traits.hpp
+[2.441s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__type_support.hpp
+[2.446s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__builder.hpp
+[2.451s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__struct.hpp
+[2.459s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__traits.hpp
+[2.465s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__type_support.hpp
+[2.473s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/int16.hpp
+[2.480s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/int8.hpp
+[2.485s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.493s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int16__rosidl_typesupport_introspection_cpp.hpp
+[2.500s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/include/ros1_msgs_srvs/msg/detail/int8__rosidl_typesupport_introspection_cpp.hpp
+[2.512s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/pythonpath.sh
+[2.522s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/pythonpath.dsv
+[2.532s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/__init__.py
+[2.541s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/msg/__init__.py
+[2.547s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/msg/_int16.py
+[2.552s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/msg/_int8.py
+[2.560s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.566s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.572s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.579s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__python.so
+[2.587s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/msg/Int8.idl
+[2.595s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/msg/Int16.idl
+[2.605s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/msg/Int8.msg
+[2.617s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/msg/Int16.msg
+[2.625s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/ros1_msgs_srvs
+[2.636s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/ros1_msgs_srvs
+[2.644s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/ament_prefix_path.sh
+[2.651s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/ament_prefix_path.dsv
+[2.660s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/path.sh
+[2.669s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/environment/path.dsv
+[2.677s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/local_setup.bash
+[2.684s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/local_setup.sh
+[2.693s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/local_setup.zsh
+[2.701s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/local_setup.dsv
+[2.708s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/package.dsv
+[2.715s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ament_index/resource_index/packages/ros1_msgs_srvs
+[2.722s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[2.730s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.736s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.745s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[2.753s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.760s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.768s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.773s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvsConfig.cmake
+[2.780s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvsConfig-version.cmake
+[2.786s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/package.xml
+[2.793s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_generator_c.so
+[2.801s] -- Set runtime path of "/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_generator_c.so" to ""
+[2.801s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_introspection_c.so
+[2.802s] -- Set runtime path of "/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""
+[2.802s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_c.so
+[2.803s] -- Set runtime path of "/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_c.so" to ""
+[2.803s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[2.804s] -- Set runtime path of "/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.804s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_cpp.so
+[2.805s] -- Set runtime path of "/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/libros1_msgs_srvs__rosidl_typesupport_cpp.so" to ""
+[2.833s] Compiling '/ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/lib/python3.8/site-packages/ros1_msgs_srvs/__init__.py'...
+[2.836s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_generator_cExport.cmake
+[2.836s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[2.836s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.837s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.837s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_cExport.cmake
+[2.837s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[2.838s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_generator_cppExport.cmake
+[2.838s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.838s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.838s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[2.838s] -- Installing: /ros_ws/joy_motion_ws/ros2_ws/install/ros1_msgs_srvs/share/ros1_msgs_srvs/cmake/ros1_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.840s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_subscriber:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_publisher:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_server:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_action_client:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/ros1_msgs_srvs

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/ros1_to_ros2_package__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ros1_to_ros2_package::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ros1_to_ros2_package__py::@1a848950d29831ff9bd1",
+	"name" : "ros1_to_ros2_package__py",
+	"paths" : 
+	{
+		"build" : "ros1_to_ros2_package__py",
+		"source" : "/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/ros1_to_ros2_package__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/ros1_to_ros2_package__py/CMakeFiles/ros1_to_ros2_package__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/ros1_to_ros2_package__py/CMakeFiles/ros1_to_ros2_package__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/rosidl_generator_py/ros1_to_ros2_package/_ros1_to_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

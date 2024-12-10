@@ -1,0 +1,20 @@
+[0.343s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/build --no-deps symlink_data
+[0.463s] running develop
+[0.519s] running egg_info
+[0.520s] writing joy_to_motion.egg-info/PKG-INFO
+[0.520s] writing dependency_links to joy_to_motion.egg-info/dependency_links.txt
+[0.520s] writing entry points to joy_to_motion.egg-info/entry_points.txt
+[0.520s] writing requirements to joy_to_motion.egg-info/requires.txt
+[0.520s] writing top-level names to joy_to_motion.egg-info/top_level.txt
+[0.536s] reading manifest file 'joy_to_motion.egg-info/SOURCES.txt'
+[0.536s] writing manifest file 'joy_to_motion.egg-info/SOURCES.txt'
+[0.553s] running build_ext
+[0.553s] Creating /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/python3.8/site-packages/joy-to-motion.egg-link (link to .)
+[0.554s] Installing joy_to_motion script to /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/joy_to_motion
+[0.554s] 
+[0.554s] Installed /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion
+[0.554s] running symlink_data
+[0.554s] creating /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/share/joy_to_motion/msg
+[0.554s] symbolically linking /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/msg/Int8.msg -> /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/share/joy_to_motion/msg
+[0.554s] symbolically linking /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/msg/Int16.msg -> /ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/share/joy_to_motion/msg
+[0.566s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion' returned '0': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/joy_to_motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/joy_to_motion/build --no-deps symlink_data

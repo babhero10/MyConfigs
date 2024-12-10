@@ -1,0 +1,4 @@
+Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client -- -j20 -l20
+Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client -- -j20 -l20
+Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client
+Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_client

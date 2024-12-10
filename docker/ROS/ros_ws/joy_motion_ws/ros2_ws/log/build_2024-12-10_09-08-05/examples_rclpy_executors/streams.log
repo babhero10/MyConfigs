@@ -1,0 +1,22 @@
+[1.438s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data
+[1.583s] running develop
+[1.642s] running egg_info
+[1.642s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[1.642s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[1.642s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[1.642s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[1.642s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[1.661s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.662s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.682s] running build_ext
+[1.682s] Creating /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[1.682s] Installing callback_group script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] Installing composed script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] Installing custom_callback_group script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] Installing custom_executor script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] Installing listener script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] Installing talker script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.683s] 
+[1.683s] Installed /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors
+[1.683s] running symlink_data
+[1.701s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_executors/build --no-deps symlink_data

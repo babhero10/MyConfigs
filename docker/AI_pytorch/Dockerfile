@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fuse \
     xclip \
     unzip \
+    python3-pip python3-dev build-essential libgtk-3-dev libwebkit2gtk-4.0-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -21,11 +22,12 @@ RUN wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
     chmod +x /usr/local/bin/nvim
 
 # Install Python libraries
-RUN pip install --no-cache-dir \
+RUN pip install -U --no-cache-dir \
     numpy matplotlib opencv-python-headless \
     jupyter notebook \
     open3d vtk pyvista \
     torch torchvision torchaudio \
+    wxpython vtk pandas networkx \
     pygeometry \
     scipy librosa  # Added libraries for signal processing
 

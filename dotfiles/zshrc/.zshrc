@@ -130,3 +130,6 @@ bindkey '^[[Z' autosuggest-accept
 # Created by `pipx` on 2024-12-03 17:53:08
 export PATH="$PATH:/home/bab/.local/bin"
 export PATH="$HOME/.local/bin:$PATH"
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"

@@ -1,0 +1,84 @@
+[0.074s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.364s] -- The C compiler identification is GNU 9.4.0
+[1.364s] -- The CXX compiler identification is GNU 9.4.0
+[1.364s] -- Check for working C compiler: /usr/bin/cc
+[1.364s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.364s] -- Detecting C compiler ABI info
+[1.364s] -- Detecting C compiler ABI info - done
+[1.364s] -- Detecting C compile features
+[1.364s] -- Detecting C compile features - done
+[1.364s] -- Check for working CXX compiler: /usr/bin/c++
+[1.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.364s] -- Detecting CXX compiler ABI info
+[1.364s] -- Detecting CXX compiler ABI info - done
+[1.364s] -- Detecting CXX compile features
+[1.364s] -- Detecting CXX compile features - done
+[1.364s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.364s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.364s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.364s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.364s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.364s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.364s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.365s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.365s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.365s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.365s] -- Looking for pthread.h
+[1.365s] -- Looking for pthread.h - found
+[1.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.365s] -- Looking for pthread_create in pthreads
+[1.365s] -- Looking for pthread_create in pthreads - not found
+[1.365s] -- Looking for pthread_create in pthread
+[1.365s] -- Looking for pthread_create in pthread - found
+[1.365s] -- Found Threads: TRUE  
+[1.365s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.365s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.365s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.365s] -- Configured cppcheck include dirs: 
+[1.365s] -- Configured cppcheck exclude dirs and/or files: 
+[1.365s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.367s] -- Configured cpplint exclude dirs and/or files: 
+[1.367s] -- Added test 'lint_cmake' to check CMake code style
+[1.367s] -- Added test 'uncrustify' to check C / C++ code style
+[1.367s] -- Configured uncrustify additional arguments: 
+[1.367s] -- Added test 'xmllint' to check XML markup files
+[1.367s] -- Configuring done
+[1.367s] -- Generating done
+[1.367s] -- Build files have been written to: /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server
+[1.390s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.392s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j20 -l20
+[1.404s] [35m[1mScanning dependencies of target action_server_not_composable[0m
+[1.405s] [35m[1mScanning dependencies of target action_server_member_functions[0m
+[1.526s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[1.538s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[5.062s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[5.235s] [ 75%] Built target action_server_not_composable
+[5.249s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[5.387s] [100%] Built target action_server_member_functions
+[5.398s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j20 -l20
+[5.401s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server
+[5.408s] -- Install configuration: ""
+[5.408s] -- Execute custom install script
+[5.408s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[5.418s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[5.425s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[5.431s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[5.439s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[5.445s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[5.454s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[5.463s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[5.472s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[5.481s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[5.489s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[5.496s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[5.503s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[5.510s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[5.517s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[5.524s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[5.533s] -- Symlinking: /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[5.543s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclcpp_minimal_action_server

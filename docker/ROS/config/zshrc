@@ -128,3 +128,10 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 bindkey '^[[Z' autosuggest-accept
+
+alias noetic='source /opt/ros/noetic/setup.zsh'
+alias foxy='source /opt/ros/foxy/setup.zsh'
+
+# ROS2
+export ROS_DOMAIN_ID=12 # Can be any number between 0-101.
+export ROS_LOCALHOST_ONLY=0 # Set to 1 if you want to make the communication public.

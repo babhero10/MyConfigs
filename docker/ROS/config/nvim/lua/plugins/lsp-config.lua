@@ -55,6 +55,17 @@ return {
 			-- Setup pylsp (Python Language Server)
 			lspconfig.pylsp.setup({
 				capabilities = capabilities,
+          settings = {
+            pylsp = {
+                plugins = {
+                  pycodestyle = {
+                    enabled = true, -- Keep it enabled but ignore specific warnings
+                    ignore = { "E501", "W291", "W293" }, -- Example: ignore line length (E501), trailing whitespace (W291/W293)
+                  },
+                },
+              },
+            },
+
 			})
 
 			-- Setup keybindings for LSP

@@ -1,0 +1,18 @@
+[1.642s] Invoking command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[1.875s] running develop
+[1.970s] running egg_info
+[1.970s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[1.970s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[1.970s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[1.970s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[1.970s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[1.987s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.987s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.006s] running build_ext
+[2.006s] Creating /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[2.006s] Installing service script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.006s] Installing service_member_function script to /ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.006s] 
+[2.006s] Installed /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service
+[2.007s] running symlink_data
+[2.019s] Invoked command in '/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/joy_motion_ws/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/joy_motion_ws/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data

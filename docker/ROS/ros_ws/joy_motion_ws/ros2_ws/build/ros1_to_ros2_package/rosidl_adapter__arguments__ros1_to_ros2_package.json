@@ -1,0 +1,7 @@
+{
+  "package_name": "ros1_to_ros2_package",
+  "non_idl_tuples": [
+    "/ros_ws/joy_motion_ws/ros2_ws/src/ros1_to_ros2_package:msg/Int8.msg",
+    "/ros_ws/joy_motion_ws/ros2_ws/src/ros1_to_ros2_package:msg/Int16.msg"
+  ]
+}

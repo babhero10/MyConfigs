@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ros1_to_ros2_package.egg-info
+writing ros1_to_ros2_package.egg-info/PKG-INFO
+writing dependency_links to ros1_to_ros2_package.egg-info/dependency_links.txt
+writing entry points to ros1_to_ros2_package.egg-info/entry_points.txt
+writing requirements to ros1_to_ros2_package.egg-info/requires.txt
+writing top-level names to ros1_to_ros2_package.egg-info/top_level.txt
+writing manifest file 'ros1_to_ros2_package.egg-info/SOURCES.txt'
+reading manifest file 'ros1_to_ros2_package.egg-info/SOURCES.txt'
+writing manifest file 'ros1_to_ros2_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/lib/python3.8/site-packages/site.py
+Creating /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/lib/python3.8/site-packages/ros1-to-ros2-package.egg-link (link to .)
+Installing ros1_ros2 script to /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/lib/ros1_to_ros2_package
+
+Installed /ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package
+running symlink_data
+creating /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/share/ament_index
+creating /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/share/ament_index/resource_index
+creating /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/resource/ros1_to_ros2_package -> /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/package.xml -> /ros_ws/joy_motion_ws/ros2_ws/install/ros1_to_ros2_package/share/ros1_to_ros2_package
