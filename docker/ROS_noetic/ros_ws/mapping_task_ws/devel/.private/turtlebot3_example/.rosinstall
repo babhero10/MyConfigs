@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /ros_ws/mapping_task_ws/devel/.private/turtlebot3_example/setup.sh

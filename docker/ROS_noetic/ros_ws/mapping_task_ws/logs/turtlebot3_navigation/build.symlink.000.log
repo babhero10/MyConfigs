@@ -1,0 +1,3 @@
+Symlinking /ros_ws/mapping_task_ws/devel/lib/pkgconfig/turtlebot3_navigation.pc
+Symlinking /ros_ws/mapping_task_ws/devel/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake
+Symlinking /ros_ws/mapping_task_ws/devel/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig-version.cmake

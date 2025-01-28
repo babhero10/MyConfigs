@@ -1,0 +1,1 @@
+/ros_ws/mapping_task_ws/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc

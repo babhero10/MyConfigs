@@ -1,0 +1,4 @@
+Symlinking /ros_ws/mapping_task_ws/devel/lib/pkgconfig/turtlebot3_slam.pc
+Symlinking /ros_ws/mapping_task_ws/devel/lib/turtlebot3_slam/flat_world_imu_node
+Symlinking /ros_ws/mapping_task_ws/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig.cmake
+Symlinking /ros_ws/mapping_task_ws/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig-version.cmake

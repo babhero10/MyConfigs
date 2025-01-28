@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  ros2_foxy:
+    build: 
+      context: .
+      dockerfile: Dockerfile.ros
+    volumes:
+      - ./config/nvim:/home/rosuser/.config/nvim
+      - ./config/zshrc:/home/rosuser/.zshrc
+      - ./config/p10k.zsh:/home/rosuser/.p10k.zsh
+      - ./ros_ws:/ros_ws
+      - "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+      - "${HOME}/.Xauthority:/home/rosuser/.Xauthority:rw"
+      - "/dev:/dev"
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    security_opt:
+      - apparmor:unconfined
+    cap_add:
+      - SYS_ADMIN
+      - SYS_RAWIO
+      - SYS_MODULE
+      - SYS_PTRACE
+      - MKNOD
+    devices:
+      - "/dev/fuse"
+    network_mode: host
+    privileged: true
+    ulimits:
+      nofile:
+        soft: 65535
+        hard: 65535

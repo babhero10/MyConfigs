@@ -1,6 +1,9 @@
 # Use the latest PyTorch image with CUDA support as a base
 FROM pytorch/pytorch:latest
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV EDITOR=nvim
+
 # Update and install core dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git wget curl \
@@ -14,14 +17,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     xclip \
     unzip \
     python3-pip python3-dev build-essential libgtk-3-dev libwebkit2gtk-4.0-dev \
+    libssl-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
+    zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev liblzma-dev \
+    tk-dev libffi-dev liblzma-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Download and install Neovim AppImage
-RUN wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage -O /usr/local/bin/nvim && \
-    chmod +x /usr/local/bin/nvim
+# Install pyenv (to manage Python versions)
+RUN curl https://pyenv.run | bash
 
-# Install Python libraries
+# Set up environment variables for pyenv
+ENV PATH="/root/.pyenv/bin:$PATH"
+ENV PYENV_ROOT="/root/.pyenv"
+ENV PATH="${PYENV_ROOT}/shims:$PATH"
+
+# Install a specific Python version using pyenv
+RUN pyenv install 3.9.10 && pyenv global 3.9.10
+
+# Install required Python packages using the new Python version
 RUN pip install -U --no-cache-dir \
     numpy matplotlib opencv-python-headless \
     jupyter notebook \
@@ -30,6 +43,13 @@ RUN pip install -U --no-cache-dir \
     wxpython vtk pandas networkx \
     pygeometry \
     scipy librosa  # Added libraries for signal processing
+
+# Install torch-geometric and related packages
+RUN pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric
+
+# Download and install Neovim AppImage
+RUN wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage -O /usr/local/bin/nvim && \
+    chmod +x /usr/local/bin/nvim
 
 # Set up Jupyter Notebook
 RUN mkdir -p /workspace && \

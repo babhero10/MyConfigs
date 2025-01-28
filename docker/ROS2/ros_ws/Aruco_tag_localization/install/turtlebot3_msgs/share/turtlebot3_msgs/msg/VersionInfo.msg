@@ -1,0 +1,1 @@
+/ros_ws/Aruco_tag_localization/src/turtlebot3_msgs/msg/VersionInfo.msg

@@ -1,0 +1,3 @@
+[console_scripts]
+mapping_aware = navigation.mapping_aware:main
+

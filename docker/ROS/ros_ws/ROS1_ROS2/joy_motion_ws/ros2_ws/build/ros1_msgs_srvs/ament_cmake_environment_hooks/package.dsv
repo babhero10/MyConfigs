@@ -1,0 +1,4 @@
+source;share/ros1_msgs_srvs/local_setup.bash
+source;share/ros1_msgs_srvs/local_setup.dsv
+source;share/ros1_msgs_srvs/local_setup.sh
+source;share/ros1_msgs_srvs/local_setup.zsh

@@ -1,0 +1,89 @@
+# Use Ubuntu 20.04 as base (ROS Foxy requires it)
+FROM ubuntu:20.04
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive \
+    EDITOR=nvim \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    USER=rosuser
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    software-properties-common \
+    wget \
+    curl \
+    gnupg2 \
+    ca-certificates \
+    lsb-release \
+    python3-pip \
+    python3-venv \
+    zsh \
+    xvfb \
+    x11-utils \
+    iputils-ping \
+    build-essential \
+    cmake \
+    fuse \
+    git \
+    libyaml-cpp-dev \
+    python3-argcomplete \
+    python3-pytest \
+    locales \
+    udev \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+# Configure locale
+RUN locale-gen en_US en_US.UTF-8 && update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+
+# Add ROS 2 Foxy repository
+RUN curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg && \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2.list
+
+# Install ROS 2 Foxy and related packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ros-foxy-desktop \
+    ros-dev-tools \
+    ros-foxy-turtlesim \
+    python3-colcon-common-extensions \
+    python3-rosdep \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install latest Neovim from unstable PPA
+RUN add-apt-repository ppa:neovim-ppa/unstable -y && \
+    apt-get update && \
+    apt-get install -y neovim && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create non-root user with device access groups
+RUN useradd -m -s /bin/zsh -G dialout,plugdev,video,users rosuser && \
+    echo "rosuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+# Switch to user context
+USER rosuser
+WORKDIR /home/rosuser
+
+# Install Oh-My-Zsh with specific versions
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended && \
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k && \
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && \
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && \
+    git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+# Switch back to root for final setup
+USER root
+
+# ROS workspace setup
+RUN mkdir -p /ros_ws/src && \
+    chown -R rosuser:rosuser /ros_ws
+
+# Final cleanup
+RUN apt-get autoremove -y && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+USER rosuser
+WORKDIR /ros_ws
+
+CMD ["tail", "-f", "/dev/null"]

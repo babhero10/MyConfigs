@@ -1,0 +1,1 @@
+/ros_ws/mapping_task_ws/devel/.private/catkin_tools_prebuild/setup.zsh

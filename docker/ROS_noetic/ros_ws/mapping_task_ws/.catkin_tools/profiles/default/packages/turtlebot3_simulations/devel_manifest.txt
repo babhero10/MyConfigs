@@ -1,0 +1,2 @@
+turtlebot3_simulations/turtlebot3_simulations
+/ros_ws/mapping_task_ws/devel/.private/turtlebot3_simulations/cmake.lock /ros_ws/mapping_task_ws/devel/./cmake.lock

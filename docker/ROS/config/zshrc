@@ -131,6 +131,7 @@ bindkey '^[[Z' autosuggest-accept
 
 alias noetic='source /opt/ros/noetic/setup.zsh'
 alias foxy='source /opt/ros/foxy/setup.zsh'
+foxy
 
 # ROS2
 export ROS_DOMAIN_ID=12 # Can be any number between 0-101.

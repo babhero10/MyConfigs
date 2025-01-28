@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2
+[0.039s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.284s] -- Configuring done
+[0.285s] -- Generating done
+[0.286s] -- Build files have been written to: /ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2
+[0.291s] Invoked command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2
+[0.292s] Invoking command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2 -- -j20 -l20
+[0.336s] Invoked command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2 -- -j20 -l20
+[0.350s] Invoking command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2
+[0.357s] -- Install configuration: ""
+[0.358s] -- Execute custom install script
+[0.358s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[0.366s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[0.377s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[0.383s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[0.394s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[0.404s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[0.413s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[0.420s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[0.428s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[0.435s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[0.443s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[0.451s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[0.459s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[0.470s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[0.481s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[0.492s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[0.501s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[0.509s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[0.519s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[0.528s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[0.535s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[0.544s] -- Symlinking: /ros_ws/Aruco_tag_localization/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[0.554s] Invoked command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/Aruco_tag_localization/build/turtlebot3_navigation2

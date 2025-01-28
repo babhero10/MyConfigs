@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_cartographer': /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_cartographer
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.122s] -- The CXX compiler identification is GNU 9.4.0
+[0.125s] -- Check for working C compiler: /usr/bin/cc
+[0.190s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.191s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.346s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.448s] CMake Error at CMakeLists.txt:10 (find_package):
+[0.448s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.448s]   has asked CMake to find a package configuration file provided by
+[0.448s]   "ament_cmake", but CMake did not find one.
+[0.449s] 
+[0.449s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.449s]   any of the following names:
+[0.449s] 
+[0.449s]     ament_cmakeConfig.cmake
+[0.449s]     ament_cmake-config.cmake
+[0.449s] 
+[0.449s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.449s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.449s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.449s]   has been installed.
+[0.449s] 
+[0.449s] 
+[0.449s] -- Configuring incomplete, errors occurred!
+[0.449s] See also "/ros_ws/Aruco_tag_localization/build/turtlebot3_cartographer/CMakeFiles/CMakeOutput.log".
+[0.456s] Invoked command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_cartographer' returned '1': /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_cartographer
