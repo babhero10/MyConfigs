@@ -1,4 +1,0 @@
-source;share/ros1_to_ros2_package/local_setup.bash
-source;share/ros1_to_ros2_package/local_setup.dsv
-source;share/ros1_to_ros2_package/local_setup.sh
-source;share/ros1_to_ros2_package/local_setup.zsh

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/ros_ws/build/ros1_msgs_srvs/rosidl_generator_py/ros1_msgs_srvs/ros1_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "ros1_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ros1_msgs_srvs")

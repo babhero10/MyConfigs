@@ -1,1 +1,0 @@
-/ros_ws/joy_motion_ws/ros2_ws/src/ros1_to_ros2_package/msg/Int8.msg

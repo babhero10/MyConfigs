@@ -1,1 +1,0 @@
-/ros_ws/joy_motion_ws/ros2_ws/src/joy_to_motion/msg/Int16.msg

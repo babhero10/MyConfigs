@@ -1,6 +1,0 @@
-turtlebot3/turtlebot3_slam
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_slam/cmake.lock /ros_ws/mapping_task_ws/devel/./cmake.lock
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_slam/lib/pkgconfig/turtlebot3_slam.pc /ros_ws/mapping_task_ws/devel/lib/pkgconfig/turtlebot3_slam.pc
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_slam/lib/turtlebot3_slam/flat_world_imu_node /ros_ws/mapping_task_ws/devel/lib/turtlebot3_slam/flat_world_imu_node
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_slam/share/turtlebot3_slam/cmake/turtlebot3_slamConfig.cmake /ros_ws/mapping_task_ws/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig.cmake
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_slam/share/turtlebot3_slam/cmake/turtlebot3_slamConfig-version.cmake /ros_ws/mapping_task_ws/devel/share/turtlebot3_slam/cmake/turtlebot3_slamConfig-version.cmake

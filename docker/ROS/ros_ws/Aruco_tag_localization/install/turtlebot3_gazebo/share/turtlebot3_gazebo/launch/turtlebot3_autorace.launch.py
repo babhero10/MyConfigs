@@ -1,1 +1,0 @@
-/ros_ws/Aruco_tag_localization/src/turtlebot3_simulations/turtlebot3_gazebo/launch/turtlebot3_autorace.launch.py

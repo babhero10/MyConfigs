@@ -1,1 +1,0 @@
-/ros_ws/Aruco_tag_localization/build/turtlebot3_cartographer/ament_cmake_core/turtlebot3_cartographerConfig.cmake

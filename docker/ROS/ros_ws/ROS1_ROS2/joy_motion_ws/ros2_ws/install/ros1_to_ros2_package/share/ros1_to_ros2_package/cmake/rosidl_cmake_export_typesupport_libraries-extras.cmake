@@ -1,1 +1,0 @@
-/ros_ws/joy_motion_ws/ros2_ws/build/ros1_to_ros2_package/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

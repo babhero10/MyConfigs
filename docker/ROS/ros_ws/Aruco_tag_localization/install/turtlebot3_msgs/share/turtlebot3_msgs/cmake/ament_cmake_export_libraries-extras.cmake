@@ -1,1 +1,0 @@
-/ros_ws/Aruco_tag_localization/build/turtlebot3_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

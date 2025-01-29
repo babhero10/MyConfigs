@@ -1,8 +1,0 @@
-source;share/ros1_msgs_srvs/hook/ld_library_path_lib.ps1
-source;share/ros1_msgs_srvs/hook/ld_library_path_lib.dsv
-source;share/ros1_msgs_srvs/hook/ld_library_path_lib.sh
-source;share/ros1_msgs_srvs/local_setup.bash
-source;share/ros1_msgs_srvs/local_setup.dsv
-source;share/ros1_msgs_srvs/local_setup.ps1
-source;share/ros1_msgs_srvs/local_setup.sh
-source;share/ros1_msgs_srvs/local_setup.zsh

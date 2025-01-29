@@ -1,2 +1,0 @@
-Invoking command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_msgs': /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_msgs
-Invoked command in '/ros_ws/Aruco_tag_localization/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /ros_ws/Aruco_tag_localization/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/Aruco_tag_localization/install/turtlebot3_msgs

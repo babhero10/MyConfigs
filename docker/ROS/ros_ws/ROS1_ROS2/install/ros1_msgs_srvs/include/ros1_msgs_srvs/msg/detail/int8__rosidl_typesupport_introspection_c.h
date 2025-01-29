@@ -1,1 +1,0 @@
-/ros_ws/build/ros1_msgs_srvs/rosidl_typesupport_introspection_c/ros1_msgs_srvs/msg/detail/int8__rosidl_typesupport_introspection_c.h

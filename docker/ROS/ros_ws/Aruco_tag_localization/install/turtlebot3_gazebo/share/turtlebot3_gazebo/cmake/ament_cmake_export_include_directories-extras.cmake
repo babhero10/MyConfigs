@@ -1,1 +1,0 @@
-/ros_ws/Aruco_tag_localization/build/turtlebot3_gazebo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

@@ -1,1 +1,0 @@
-/ros_ws/mapping_task_ws/devel/.private/turtlebot3_msgs/lib/python3/dist-packages/turtlebot3_msgs/msg/_Sound.py

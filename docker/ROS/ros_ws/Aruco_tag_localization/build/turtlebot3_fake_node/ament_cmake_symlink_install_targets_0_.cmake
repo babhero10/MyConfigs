@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/ros_ws/Aruco_tag_localization/build/turtlebot3_fake_node/turtlebot3_fake_node" "TARGETS" "turtlebot3_fake_node" "DESTINATION" "lib/turtlebot3_fake_node")

@@ -1,1 +1,0 @@
-/ros_ws/mapping_task_ws/devel/.private/mapping_aware/lib/pkgconfig/mapping_aware.pc

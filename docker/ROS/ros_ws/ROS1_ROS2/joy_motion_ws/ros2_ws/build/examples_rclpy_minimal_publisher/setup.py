@@ -1,1 +1,0 @@
-/ros_ws/joy_motion_ws/ros2_ws/src/src/examples/rclpy/topics/minimal_publisher/setup.py

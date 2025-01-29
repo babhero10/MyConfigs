@@ -1,6 +1,0 @@
-Invoking command in '/ros_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/ros1_msgs_srvs
-Invoked command in '/ros_ws/build/ros1_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros_ws/joy_motion_ws/ros2_ws/src/ros1_msgs_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros_ws/install/ros1_msgs_srvs
-Invoking command in '/ros_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/build/ros1_msgs_srvs -- -j20 -l20
-Invoked command in '/ros_ws/build/ros1_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ros_ws/build/ros1_msgs_srvs -- -j20 -l20
-Invoking command in '/ros_ws/build/ros1_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/build/ros1_msgs_srvs
-Invoked command in '/ros_ws/build/ros1_msgs_srvs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ros_ws/build/ros1_msgs_srvs
